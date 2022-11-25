@@ -1,4 +1,5 @@
-section{
+/* semanticaly, an id selector should only occur once in a page */
+#page-title{
     background: #ff1b68;
 }
 
@@ -7,4 +8,9 @@ section{
 h1{
     color: white;
     font-family: 'Fira Sans', sans-serif;
+}
+
+/* class selector */
+.morale-boost{
+    color: blue;
 }
