@@ -14,3 +14,21 @@ h1{
 .morale-boost{
     color: blue;
 }
+
+
+/* combinator */
+
+/* combinators have high specifity */
+/* The more specific rule has the more specificity */
+#motivation p{
+    color: black;
+    background-color: antiquewhite;
+}
+
+
+/* The combinator selector used in the above declaration wins over the p selector because of specificity */
+
+p{
+    color: red;
+    background-color: antiquewhite; 
+}
