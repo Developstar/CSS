@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /* semanticaly, an id selector should only occur once in a page */
 
 body{
@@ -10,6 +13,10 @@ body{
 section{
     height: 100%;
     background: green;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
 }
 #page-title{
     background: #ff1b68;
